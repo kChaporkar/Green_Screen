@@ -1,0 +1,10 @@
+h1{
+  margin: 40pt;
+  color: blue;
+  text-align: center;
+  }
+canvas{
+  height: 200px;
+  width: 200x;
+  border: 5px solid red;
+}

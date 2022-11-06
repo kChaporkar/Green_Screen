@@ -1,0 +1,16 @@
+<h1>Green Screen Composite Image</h1>
+<canvas id="can"></canvas>
+<canvas id="can2"></canvas>
+<br></br>
+<script src= "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script> 
+Forground Image:
+<input type="file" id="fgimg" multiple="
+false" accept="Image/*" onchange="fgImg()">
+<br></br>
+BackGround Image:
+<input type="file" multiple="false" accept="Image/*"
+       id="bgimg" onchange="bgImg()" >
+<br></br>
+<input type="button" id="comp" value="Composite Image" onclick="composite()">
+<input type="button" id="clr" value="Clear screen" onclick="clear()">
+
